@@ -1,24 +1,22 @@
 
-num1 = 10
-num2 = 5
 
-def add():
+def add(num1, num2):
     res = num1 + num2
-    print(res)
-    
-def subtract(): 
+    return res
+
+def subtract(num1, num2): 
     res = num1 - num2
-    print(res)              
-    
-def multiply():
+    return res
+
+def multiply(num1, num2):
     res = num1 * num2
-    print(res)
-    
-def divide():
+    return res
+
+def divide(num1, num2):
     res = num1 // num2
-    print(res)
-    
-add()
-subtract()
-multiply()
-divide()
+    return res
+
+print(add(10, 5))
+print(subtract(10, 5))
+print(multiply(10, 5))
+print(divide(10, 5))
