@@ -22,3 +22,6 @@ print(names)
 
 if "Charlie" in names:
     print("Charlie is in the list")
+    
+print(len(names))
+
